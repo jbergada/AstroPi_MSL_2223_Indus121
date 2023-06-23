@@ -40,6 +40,7 @@ The initialization function allows you to specify whether to keep the
 classifications from the pre-trained model or abandon them and use only
 the classes you're about to add.
 '''
+
 engine = ImprintingEngine(f"{model_path}", keep_classes=False)
 
 '''
